@@ -102,7 +102,7 @@
         DisplayName,
         Reputation
     from Users
-    where DisplayName like 'user%'; -- Todos los "DisplayName" que inician con "user"
+    where DisplayName like 'user%'; -- All "DisplayName" values ​​that begin with "user"
     go
 
 -- Query 9
@@ -111,7 +111,7 @@
         DisplayName,
         Reputation
     from Users
-    where DisplayName like '%user%'; -- Todos los "DisplayName" que tienen "user"
+    where DisplayName like '%user%'; -- All "DisplayName" values ​​that contain "user"
     go
 
 -- Query 10
@@ -120,7 +120,7 @@
         DisplayName,
         Reputation
     from Users
-    where DisplayName like '%user'; -- Todos los "DisplayName" que terminan con "user"
+    where DisplayName like '%user'; -- All "DisplayName" values ​​that end with "user"
     go
 
 

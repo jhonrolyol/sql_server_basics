@@ -60,7 +60,7 @@
         Reputation
     from Users
     where (DisplayName like '%user' and Reputation < 1000)
-    order by Reputation asc, DisplayName asc; -- El orden por defecto es ascendente "asc"
+    order by Reputation asc, DisplayName asc; -- The default order is ascending ("asc").
     go 
 
 -- Query 4
@@ -136,7 +136,7 @@
     select 
         DisplayName,
         avg(Reputation),
-        count(1) -- Este "1" hace referencia al primer campo seleccionado "DisplayName"
+        count(1) -- This "1" refers to the first selected field, "DisplayName".
     from Users 
     group by DisplayName
     order by avg(Reputation) desc;
@@ -147,7 +147,7 @@
     select 
         DisplayName,
         avg(Reputation),
-        count(1) -- Este "1" hace referencia al primer campo seleccionado "DisplayName"
+        count(1) -- This "1" refers to the first selected field, "DisplayName".
     from Users 
     group by DisplayName
     having count(1) > 1
