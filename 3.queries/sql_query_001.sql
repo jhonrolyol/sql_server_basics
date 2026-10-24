@@ -12,9 +12,9 @@
         \___)=(___/
     
   Outline
-    1.- Keyboard shortcuts
-    2.- Use Database "StackOverflow2010"
-    3.- Query 1 and 12 
+  -- Keyboard shortcuts
+  -- Use Database "StackOverflow2010"
+  -- Query 1 and 12 
 
                                          Jhon R. Ordoñez
                                     (rolyordonezleon@gmail.com)
@@ -22,14 +22,14 @@
 ==================================================================================================*/
 
 
--- 1.- Keyboard shortcuts
+-- Keyboard shortcuts
     -- Ctrl + s: save
     -- Ctrl + e or F5: execute the code (Remember to select the code that is to be executed)
     -- Select the code --> right-click --> Execute: execute the code (I like this option better)
     -- Reference: SoyDBA
 	-- ... 
 
--- 2.- Use Database "StackOverflow2010"
+-- Use Database "StackOverflow2010"
     use StackOverflow2010;
     go
 
