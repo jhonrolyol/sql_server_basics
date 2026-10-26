@@ -84,6 +84,7 @@
     select * from Usuarios;
     go
 
+    delete from Usuarios; -- Warning: Never do it
     truncate table Usuarios; -- Warning: Never do it
     go
 
